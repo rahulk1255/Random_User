@@ -66,13 +66,46 @@ src/
 │
 ├── components/
 │   ├── UserCard.jsx
-│   └── SearchBar.jsx
+│   ├── SearchBar.jsx
+│   └── Pagination.jsx
 │
 ├── App.jsx
 ├── App.css
 ├── main.jsx
 └── index.css
 ```
+
+## 🧩 Components
+
+### UserCard.jsx
+
+Displays user information including:
+
+* Profile Picture
+* Full Name
+* Email
+* Phone Number
+* Age
+* Gender
+* Username
+* Location
+
+### SearchBar.jsx
+
+Provides real-time search functionality for filtering users by:
+
+* Name
+* Email
+
+### Pagination.jsx
+
+Handles navigation between API pages:
+
+* Previous Page button
+* Next Page button
+* Current page indicator
+* Prevents navigation beyond available pages
+
 
 ## 🎯 Functionalities
 
@@ -112,15 +145,17 @@ Users can search profiles by:
 
 ## 📸 Screenshots
 
-Add screenshots of your application here.
+<img width="1407" height="870" alt="image" src="https://github.com/user-attachments/assets/43fc9ff3-38c4-4354-93b0-69cd3b63e9fc" />
+<img width="1520" height="702" alt="image" src="https://github.com/user-attachments/assets/cb0a7114-bb8e-4ef3-9856-e565cdbaa9da" />
+
 
 ## 🔗 Live Demo
 
-Add your deployed application link here.
+https://random-user-livid-ten.vercel.app/
 
 ## 💻 GitHub Repository
 
-Add your GitHub repository link here.
+[Add your GitHub repository link here.](https://github.com/rahulk1255/Random_User)
 
 ## 👨‍💻 Author
 
