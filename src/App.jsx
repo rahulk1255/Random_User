@@ -39,7 +39,7 @@ function App() {
   if (error) return <h1>{error}</h1>;
   
   const filteredUsers = users.filter((user) =>{
-    const fullName = `${user.first_name} ${user.last_name}`.toLowerCase();
+    const fullName = `${user.name.first} ${user.name.last}`.toLowerCase();
     return fullName.includes(search.toLowerCase()) || user.email.toLowerCase().includes(search.toLowerCase());
   })
   
