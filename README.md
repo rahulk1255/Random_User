@@ -1,16 +1,129 @@
-# React + Vite
+# Random Users Directory
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based user directory application that fetches and displays user profiles using the Random Users API. The application provides a clean and responsive interface with search and pagination functionality.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Fetches user data from the Random Users API
+- Displays users in responsive profile cards
+- Search users by name or email
+- Server-side pagination
+- Loading state handling
+- Error handling
+- Responsive design for desktop, tablet, and mobile devices
 
-## React Compiler
+## 🛠️ Tech Stack
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React.js
+- Vite
+- CSS3
+- Random Users API
 
-## Expanding the ESLint configuration
+## 📦 Installation
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+1. Clone the repository
+
+```bash
+git clone <your-repository-url>
+```
+
+2. Navigate to the project directory
+
+```bash
+cd random-users-app
+```
+
+3. Install dependencies
+
+```bash
+npm install
+```
+
+4. Start the development server
+
+```bash
+npm run dev
+```
+
+5. Open your browser and visit
+
+```text
+http://localhost:5173
+```
+
+## 📡 API Used
+
+Random Users API:
+
+```text
+https://api.freeapi.app/api/v1/public/randomusers
+```
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── UserCard.jsx
+│   └── SearchBar.jsx
+│
+├── App.jsx
+├── App.css
+├── main.jsx
+└── index.css
+```
+
+## 🎯 Functionalities
+
+### User Cards
+
+Each card displays:
+
+- Profile Picture
+- Full Name
+- Email Address
+- Phone Number
+- Age
+- Gender
+- Username
+- Location
+
+### Search
+
+Users can search profiles by:
+
+- First Name
+- Last Name
+- Full Name
+- Email Address
+
+### Pagination
+
+- Previous and Next navigation
+- Current page indicator
+- Dynamic API fetching based on page number
+
+## ⚡ Performance Considerations
+
+- Server-side pagination reduces unnecessary data loading
+- React state management for efficient re-rendering
+- Conditional rendering for loading and error states
+
+## 📸 Screenshots
+
+Add screenshots of your application here.
+
+## 🔗 Live Demo
+
+Add your deployed application link here.
+
+## 💻 GitHub Repository
+
+Add your GitHub repository link here.
+
+## 👨‍💻 Author
+
+Rahul Kumar
+
+Built as part of a React API Integration assignment.
